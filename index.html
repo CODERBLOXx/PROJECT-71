@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: cyan;">
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999;">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-target="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">School</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="#campus_life">Campus Life</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#new">What's New</a></li>
+            <li><a href="#alumni">Alumni</a></li>
+            <li><a href="#ContactUs">Contact us</a></li>
+        </ul>
+    </div>
+    </nav>
+    <div class="announcement">
+        <marquee onmouseover="this.stop();" onmouseout="this.start();">
+        *** Feel Free To Ask Queries on school@gmail.com ***
+        </marquee>
+    </div>
+    <center>
+        <img src="school.jfif" width="500px" alt="Failed To Load Image">
+    </center>
+    <div class="Campus_mainDiv" id="campus_life">
+        <h2 class="text-capitalize">Campus Life</h2>
+        <span>
+            <img src="https://i.postimg.cc/KYzWbFpF/st2.jpg" width="400px" height="400px" class="img-circle">
+        <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+        <hr>
+        <h5 class="text-capitalize">Was Built in 2021,</h5>
+        <p class="text-muted text-left">It is the school Library.</p>
+        </span>
+        <span>
+        <img src="https://i.postimg.cc/cLDDX2xz/st3.jpg" width="400px" height="400px" class="img-circle">
+        <h4 class="text-capitalize"><kbd>Auditorium</kbd></h4>
+        <hr>
+        <h5 class="text-capitalize">Was Built in 2030,</h5>
+        <p class="text-muted text-left">It is the Auditorium.</p>
+        </span>
+        <span>
+            <img src="https://live.staticflickr.com/4809/39704276483_28584e2ef2_b.jpg" width="400px" height="400px" class="img-circle">
+        <h4 class="text-capitalize"><kbd>Church</kbd></h4>
+        <hr>
+        <h5 class="text-capitalize">Was Built in 2056,</h5>
+        <p class="text-muted text-left">It is the school church.</p>
+        </span>
+    </div>
+    <div id="alumni">
+        <h1 class="text-capitalize">Our alumni</h1>
+        <br>
+        <hr>
+        <br>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-toggle="modal" data-target="#schoolAlumni1">
+            <img src="einstein.jfif" class="img-circle img-responsive">
+            <br>
+            <p class="text-primary">Albert Einstein</p>
+            <br>
+            <hr>
+            <br>
+            <div class="modal fade" id="schoolAlumni1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Albert Einstein</h4>
+                            <p class="p_modal">
+                                He is the smartest person in the world, famed to discover the e=mc2 theory and he was born in 14th march,1879.<br>
+                                <a href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank"><b>To Know More</b></a>
+                            </p>
+                        </div>
+                        <div class="modal-body">
+                            <img src="einstein.jfif">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="new">
+        <h2 class="text-capitalize">Whats new</h2>
+        <hr>
+        <span class="btn btn-success">
+            <h1 class="text-success">New School Canteen</h1>
+            <br>
+            <hr>
+            <br>
+            <img src="Canteen.png">
+            <h3 class="text-success"></h3>A brand new canteen in the school is a new thing.</h3>
+            <h3 class="text-success">New food items will be added every month and
+                there will be tasty foods as well as healthy foods.</h3>
+                <h3 class="text-success">prices will be reasonable as well and its open
+                    until school ends when the day is over.</h3>
+                    <h3 class="text-success">You can also get some tea or coffee.</h3>
+        </span>
+    </div>
+    <div class="page_header" id="achievements">
+        <h2 class="text-capitalize">school achievements</h2>
+    </div>
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+        Inter School Debate On Environment Pollution <i class="fa fa-sort-desc"></i>
+    </div>
+
+    <div class="school_achievement1">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs">
+            <h2 class="text-capitalize">Contact Us</h2>
+            <hr>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d146241.45649801168!2d72.70776821337203!3d19.122982336789207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b745d5b7c4bd%3A0xde2f38d642ffaf23!2sWhiteHatJr%20Mumbai!5e0!3m2!1sen!2sin!4v1626784065963!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="details">
+                <img src="Image.jfif">
+                <h3>Principal Name: </h3>
+                <h4>Mr. Principal</h4>
+                <div class="contact_us">
+                    <a href="mailto:school@gmail.com?Subject=Hi">
+                        <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;InstagramID</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;9999999999</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
